@@ -30,4 +30,4 @@ def filter_plot(df, genre_pattern):
     mean_rating_comedy = np.mean(pd.to_numeric(comedy_movies['Rating'], errors='coerce'))
     print(f"\nThe comedy movies with a rating that is greater than or equal to {min_rating}: ")
 
-i think this 
+
