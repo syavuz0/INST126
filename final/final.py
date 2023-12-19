@@ -38,7 +38,7 @@ filtered_mean_rating = np.mean(filtered_movies["Rating"])
 
 # displays a list of the filtered movies by the user's minimum rating 
 print(f"\nFiltered Comedy Movies with a Rating greater than or equal to {min_rating}")
-print("Here is a list of the filtered comedy movies")
+print("Here is a list of the filtered comedy movies:")
 print(filtered_movies[["Title", "Rating"]])
 
 # creates and displays a histogram of all the ratings for comedy movies
