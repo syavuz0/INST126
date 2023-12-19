@@ -1,3 +1,5 @@
 This is my final project for INST126
 
-This program sorts through a movie dataset dating back to 1989 with 637 entries with ratings 4.1-9.0. It filters through the genre of comedy movies based on the user input of minimum rating selection. It then lists the average rating of all movies, compared to the the average of the movies filtered by the minimum rating selection. 
+This program sorts through a movie dataset dating back to 1989 with 637 entries with ratings 4-9. It filters through the genre of comedy movies based on the user input in the command line of minimum rating selection, and displays the titles and ratings of the filtered list. The program displays a histogram consisting of general movie ratings for all of the comedy movies in the dataset. Lastly, it lists the average rating of the filtered movies based on the user's minimum rating input in the command line. 
+
+For the minimum rating user input that is entered in the command line, the arguments that are accepted are whole numbers between 4-9 which is the range of the dataset for ratings. If a whole number is not entered, or another value that raises a value error, the minimum rating is automatically set to 4 which is the lowest possible number. 
