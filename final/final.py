@@ -43,7 +43,7 @@ print(filtered_movies[["Title", "Rating"]])
 
 # creates and displays a histogram of all the ratings for comedy movies
 plt.hist(comedy_movies["Rating"])
-plt.title(f"Average Rating for Comedy Movies")
+plt.title(f"Average Rating for All Comedy Movies")
 plt.xlabel("Rating")
 plt.ylabel("Number of Movies")
 plt.show()
