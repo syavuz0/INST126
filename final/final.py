@@ -51,3 +51,8 @@ plt.show()
 # displays the mean rating for the filtered movies by user input for minimum rating
 print(f"\nMean Rating: {filtered_mean_rating}")
 
+# I wanted to clarify that I was basically done with my code before I even got to
+# commit changes to Git, I had two separate repositories and my files were
+# untracked and kept deleting themselves without saving version history. 
+# I ultimately made a new repository and pasted my already writtem code in here
+# before making more changes. 
