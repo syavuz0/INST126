@@ -26,8 +26,9 @@ while True:
         break
     except ValueError:
         print("Invalid input, please enter in a whole number.")
-        min_rating = 4
         print("The minimum rating has been automatically set to 4.")
+        min_rating = 4
+        
 
 # filters the movies based on user input minimum rating
 filtered_movies = comedy_movies[comedy_movies["Rating"] >= min_rating]
@@ -37,6 +38,7 @@ filtered_mean_rating = np.mean(filtered_movies["Rating"])
 
 # displays a list of the filtered movies by the user's minimum rating 
 print(f"\nFiltered Comedy Movies with Rating >= {min_rating}")
+print("Here is a list of the filtered comedy movies")
 print(filtered_movies[["Title", "Rating"]])
 
 # creates and displays a histogram of all the ratings for comedy movies
